@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_edit_linear"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Fragments.PostsFragment">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/edit_post_toolbar">
+
+    </android.support.v7.widget.Toolbar>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_below="@+id/edit_post_toolbar"
+    >
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/edit_post_rel"
+        android:layout_below="@+id/edit_post_toolbar"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edit_post_txt"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_post_toolbar"
+            android:layout_marginTop="45dp"
+            android:hint="Write some thing..."
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/edit_img_post"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_pick_img" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+</RelativeLayout>

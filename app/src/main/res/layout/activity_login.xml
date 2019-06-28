@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffd180"
+    tools:context=".LoginActivity">
+    <include
+        android:id="@+id/toolBar1"
+        layout="@layout/bar_layout" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/toolBar1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Login"
+            android:textStyle="italic"
+            android:textColor="#e65100"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email1"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            app:met_floatingLabel="normal"
+            android:hint="Email"
+            />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password1"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            app:met_floatingLabel="normal"
+            android:hint="PassWord"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:textColor="#ffd180"
+            android:text="Login"
+            android:backgroundTint="#e65100"
+            android:background="@drawable/button_style"
+            android:id="@+id/btn_login" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forget Your Password"
+            android:layout_marginTop="15dp"
+            android:id="@+id/forget_password"
+            android:textColor="#e65100"
+            />
+    </LinearLayout>
+</RelativeLayout>

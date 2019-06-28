@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e65100</color>
+    <color name="colorPrimaryDark">#e65100</color>
+    <color name="colorAccent">#fff</color>
+    <color name="online_state">#21E91A</color>
+    <color name="offline_state">#948E8E</color>
+</resources>

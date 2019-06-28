@@ -1,0 +1,13 @@
+<resources>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#e65100</item>
+        <item name="colorPrimaryDark">#e65100</item>
+        <item name="colorAccent">#fb8c00</item>
+    </style>
+<style name="MenuStyle" parent="Theme.AppCompat.Light">
+    <item name="android:background">#fff</item>
+</style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tool_bar"
+    android:background="#ef6c00"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:popupTheme="@style/MenuStyle"
+    >
+</android.support.v7.widget.Toolbar>

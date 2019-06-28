@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#ffd180"
+    android:orientation="vertical"
+    android:id="@+id/welcome"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Welcome to App"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#e65100"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/login_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_style"
+        android:backgroundTint="#e65100"
+        android:text="Login"
+
+        android:layout_margin="10dp"
+        android:textColor="#ffd180" />
+
+    <Button
+        android:layout_below="@+id/login_act"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textColor="#ffd180"
+        android:backgroundTint="#e65100"
+        android:background="@drawable/button_style"
+        android:id="@+id/register_act"
+        android:layout_margin="10dp"
+        android:text="Register"
+        />
+</RelativeLayout>
+</LinearLayout>
